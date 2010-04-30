@@ -2,7 +2,8 @@ Code kata taken from http://nosuchblogger.com/post/36/code-kata-roman-numerals-i
 
 The problem is on the face of it very simple and represents a good
 intro to a coding dojo as the problem itself won't add confusion to
-developers learning TDD (or even Ruby!).
+developers learning TDD (or even Ruby!). This task can also spin out
+to be hugely complex too!
 
 The problem is this:
 
@@ -12,3 +13,8 @@ RomanNumeral.new('XX').to_i #=> 20
 Etc.
 
 A very simple passing test has been supplied.
+
+And for those not aware of roman numerals:
+http://en.wikipedia.org/wiki/Roman_numerals
+
+This was written in the year MMX ;)
