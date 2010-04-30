@@ -2,9 +2,9 @@ require "spec"
 require File.join(File.dirname(__FILE__), '..', 'lib', 'roman_numeral')
 
 describe RomanNumeral do
-  it "should convert X to 10" do
-    numeral = RomanNumeral.new('X')
+  it "should convert I to 1" do
+    numeral = RomanNumeral.new('I')
     
-    numeral.to_i.should == 10
+    numeral.to_i.should == 1
   end
 end
