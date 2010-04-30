@@ -1,0 +1,14 @@
+Code kata taken from http://nosuchblogger.com/post/36/code-kata-roman-numerals-intro .
+
+The problem is on the face of it very simple and represents a good
+intro to a coding dojo as the problem itself won't add confusion to
+developers learning TDD (or even Ruby!).
+
+The problem is this:
+
+RomanNumeral.new('X').to_i  #=> 10
+RomanNumeral.new('XX').to_i #=> 20
+
+Etc.
+
+A very simple passing test has been supplied.
